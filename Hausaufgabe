@@ -1,8 +1,10 @@
 public class Hausaufgabe {
   public static void Hausaufgabe(String[] atgs) {
-    int zahl1 = 7;
-    int basis = ++zahl1;
-    int ergebnis = basis * basis;
+  int ergebnis = zahl(7); 
   System.out.println("Lösung" + ergebnis);
+  }
+public static int zahl (int zahl1){
+  zahl1 = ++zahl1;
+  return zahl1 * zahl1;
   }
 }
